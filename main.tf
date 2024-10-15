@@ -4,8 +4,8 @@ provider "google" {
   region  = "us-east1"
 }
 
-module "vm_instance" {
-  source       = "./modules/vm_instance"  # Path to your module
+module "gke-service-account" {
+  source       = "./modules/gke-service-account"  # Path to your module
   instance_name = var.instance_name
   machine_type  = var.machine_type
   zone          = var.zone
