@@ -1,5 +1,5 @@
 instance_name = "my-instance"
-machine_type  = "n1-standard-1"
+machine_type  = "n1-standard-5"
 zone          = "us-east1-b"
 image         = "debian-cloud/debian-11"
 network       = "default"
