@@ -1,3 +1,3 @@
-terraform init
-terraform plan 
-terraform destroy
+#terraform init
+#terraform plan 
+#terraform destroy
